@@ -1,0 +1,22 @@
+.recipe_header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* bouncing animation (floating)  */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.image {
+  animation: bounce 1s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
